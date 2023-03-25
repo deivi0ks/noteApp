@@ -12,10 +12,22 @@ export default function RegisterForm() {
             placeholder="El.Paštas"
           />
           <input
+            type="text"
+            name="username"
+            class="px-4 py-3 mt-4 w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm"
+            placeholder="Slapyvardis"
+          />
+          <input
             type="password"
             name="password"
             class="px-4 py-3 mt-4 w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm"
             placeholder="Slaptažodis"
+          />
+          <input
+            type="password"
+            name="password"
+            class="px-4 py-3 mt-4 w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm"
+            placeholder="Slaptažodžio pakartojimas"
           />
           <button
             type="submit"

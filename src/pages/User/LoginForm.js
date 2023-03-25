@@ -1,4 +1,4 @@
-export default function RegisterForm() {
+export default function LoginForm() {
   document.title = "Note-App prisijungimas";
   return (
     <div class="container mx-auto p-4 bg-white">
